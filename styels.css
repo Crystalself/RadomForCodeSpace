@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.containerF {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 90vh;
+}
+
+.container:hover{
+    rotate: 45deg;
+    background-color: brown;
+}
+
+.container:hover #item{
+    width: 40px;
+    height: 40px;
+}
+
+#item {
+    background-color: darkgoldenrod;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+}
+
+#item:hover {
+        border: 1px solid black;
+}
+div:hover{
+    scale: 2;
+}
